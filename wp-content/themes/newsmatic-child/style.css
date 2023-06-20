@@ -1,0 +1,82 @@
+/*!
+Theme Name: Newsmatic Child
+Theme URI: https://blazethemes.com/theme/newsmatic-free/
+Author: BlazeThemes
+Author URI: https://blazethemes.com/
+Description: Newsmatic is complete solution for your news website. It is fast, features rich, customizer-based, and multipurpose free news theme. It is multilingual compatibility, gutenberg compatibility, elementor compatibility and can be integrated easily with newsletter/form plugins. This theme is schema ready, which makes it a favourite for search engines. Newsmatic Theme does not collect any kind of personal data restricted under GDPR, so you can sleep without any worry by using our theme on your website. Developed by dedicated developers, it has user friendly and easy to use advanced control fields like select2, react color picker, image selector, typography field and many more inside the theme. Check out our pre-build demos here: https://blazethemes.com/theme/newsmatic-free. For Detailed Tutorial video please visit: https://www.youtube.com/watch?v=fb8qJ2XEZzQ
+Template: newsmatic
+Version: 1.2.6
+Tested up to: 6.0
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: newsmatic
+Tags: news, blog, entertainment, one-column, two-columns, grid-layout, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-colors, custom-menu, featured-images, full-width-template, post-formats, sticky-post, rtl-language-support, footer-widgets, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Newsmatic is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+
+body.page-id-224 div.ticker-news-wrap{
+	display: none;
+}
+body.page-id-224 div.newsmatic-breadcrumb-wrap{
+	display: none;
+}
+
+.left{
+	width: 30%;
+	display: inline-block;
+	float:left;
+}
+
+.right{
+	width: 70%;
+	display: inline-block;
+}
+
+.book{
+	width: 33%;
+    display: inline-block;
+    /*border:1px solid black;*/
+}
+
+.book-item-body{
+	    width: 80%;
+	    margin: 0 auto;
+	    border-radius: 25px;
+	    padding:30px 10px;
+	    text-align: center;
+}
+.book-item-body:hover{
+	background: #fce0e0;
+	cursor: pointer;
+}
+.book-link{
+	text-decoration: none;
+	color:black;
+}
+
+.newbooklayout{
+	    width: 60%;
+    margin: 0 auto;
+    
+    border-radius: 50px;
+    padding: 400px 60px;
+    background-repeat: no-repeat !important;
+    
+    /*border: 1px solid black;*/
+    background-position: center !important;
+}
+
+.newbooklayout .content-wrapper{
+	width: 60%;
+	margin:0 auto;
+}
